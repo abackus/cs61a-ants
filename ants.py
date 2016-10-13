@@ -430,12 +430,13 @@ class TankAnt(BodyguardAnt):
         BodyguardAnt.action(self, colony)
         # END Problem 8
 
-class QueenAnt(Ant):  # You should change this line
+class QueenAnt(ScubaThrower):  # You should change this line
     """The Queen of the colony.  The game is over if a bee enters her place."""
 
     name = 'Queen'
     # BEGIN Problem 9
     "*** REPLACE THIS LINE ***"
+    food_cost = 7
     implemented = False   # Change to True to view in the GUI
     # END Problem 9
 
